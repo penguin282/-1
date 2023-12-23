@@ -5,13 +5,13 @@ import scratchattach as scratch3
 import time
 
 #セッションIDを決める
-sessionID = ".eJxVjztvhDAQhP8LdUK8vIyvS4pUySW55kQaZPAC5mFzYHTKRfnvWUs0J22x-mZnNfMbbCsuRk4YHIIZTbtpU0Z5FDwEpdxcV3q51IpUYDFnaRTnpDlcXW3toL3tapcB1b2jkvWAxts8Q-N0LZ22JtyFNTzhPO7wZT-mv5YWMtVpHsVcqCyhAeASKpVUaSxAIscmPejjpW_fzp8fBTt9vZ7f5Tcrksvtp3MtvRltq82jnn1qECGwLMwhhMxnHCWVlK0P3ksCqidgS6cnvFnj8fOECyV7OuK1LKjbfbNOrh0dVTyTCqpMsEaJRDRpAiqKWVM3nGGDNctyBoJD8PcPX2BySg:1rGrEy:U2nM6chB9rAdLHzuQCSSdxOiTmw"
+sessionID = "セッションID"
 
 #Scratchにログイン（正確には少し違います）
 session = scratch3.Session(sessionID, username="penguin_282")
 
 #クラウド変数に接続（下の数字を作った作品のプロジェクトIDに！）
-connection = session.connect_cloud(project_id=943717731)
+connection = session.connect_cloud(project_id=プロジェクトID)
 print("クラウド変数に接続しました")
 
 #クラウド変数を設定
